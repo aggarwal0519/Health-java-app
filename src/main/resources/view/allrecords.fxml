@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<?import javafx.geometry.Insets?>
+<!--<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="400.0" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">-->
+
+<GridPane alignment="CENTER" hgap="10.0" vgap="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+
+        <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+        </padding>
+        <Label style="-fx-font: NORMAL 20 Tahoma;" text="All my health records"
+               GridPane.columnIndex="0" GridPane.rowIndex="0">
+        </Label>
+<!--    <children>-->
+<!--        <Label prefHeight="20.0" prefWidth="250.0" text="Date"/>-->
+<!--        <Label prefHeight="20.0" prefWidth="250.0" text="Weight(kg)" />-->
+<!--        <Label prefHeight="20.0" prefWidth="250.0" text="Temperature(Celcius)" />-->
+<!--        <Label prefHeight="20.0" prefWidth="250.0" text="Blood Pressure" />-->
+<!--        <Label prefHeight="20.0" prefWidth="100.0" text="Low" />-->
+<!--        <Label prefHeight="20.0" prefWidth="100.0" text="High" />-->
+<!--        <Label prefHeight="20.0" prefWidth="100.0" text="Notes(Max 50 words)" />-->
+
+<!--        <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0" spacing="20.0">-->
+<!--            <children>-->
+<!--                <Button fx:id="submit" mnemonicParsing="false" text="Ok" />-->
+<!--                <Button fx:id="cancel" mnemonicParsing="false" text="Cancel" />-->
+<!--            </children>-->
+<!--        </HBox>-->
+<!--        <Label fx:id="status" />-->
+<!--    </children>-->
+<!--        <TableView fx:id="record_table" GridPane.columnIndex="0"-->
+<!--                   GridPane.rowIndex="1">-->
+
+<!--                <columns>-->
+<!--                        <TableColumn fx:id = "dateColumn" prefWidth="100" text="Date"> /><cellValueFactory><PropertyValueFactory property="date" />-->
+<!--                        </cellValueFactory>-->
+<!--                        </TableColumn>-->
+<!--                        <TableColumn fx:id = "weightColumn" prefWidth="150" text="Weight(kg)">-->
+<!--                                <cellValueFactory><PropertyValueFactory property="weight" />-->
+<!--                                </cellValueFactory>-->
+<!--                        </TableColumn>-->
+<!--                        <TableColumn fx:id = "temperatureColumn" prefWidth="150" text="Temperature(Celcius)">-->
+
+<!--                        </TableColumn>-->
+<!--                        <TableColumn id = "lowColumn" prefWidth="100" text="Low">-->
+
+<!--                        </TableColumn>-->
+<!--                        <TableColumn id = "highColumn" prefWidth="100" text="High">-->
+
+<!--                        </TableColumn>-->
+<!--                        <TableColumn id = "notesColumn" prefWidth="150" text="Notes(Max 50 words)">-->
+
+<!--                        </TableColumn>-->
+<!--                </columns>-->
+<!--        </TableView>-->
+<!--        <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0" spacing="20.0">&ndash;&gt;-->
+<!--                    <children>-->
+<!--                        <Button fx:id="submit" mnemonicParsing="false" text="Ok" />-->
+<!--                        <Button fx:id="cancel" mnemonicParsing="false" text="Cancel" />-->
+<!--                    </children>-->
+<!--        </HBox>-->
+
+</GridPane>
+
+
